@@ -52,6 +52,7 @@ body {
 .personal-info {
     background-color: #9BA4B5;
     color: #212A3E;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -65,4 +66,19 @@ ul {
     font-size: 25px;
     font-weight: bold;
     margin: 20px 0px;
+}
+
+.personal-info-elements {
+    align-self: flex-start;
+}
+
+.family-info {
+    background-color: #212A3E;
+    color: #9BA4B5;
+    padding-bottom: 20px;
+}
+
+.thankYou {
+    background-color: #394867;
+    color: #F1F6F9;
 }
