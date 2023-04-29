@@ -20,6 +20,12 @@ body {
     background-color: #394867;
 }
 
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .mainImg {
     width: 150px;
     height: auto;
@@ -34,10 +40,30 @@ body {
 
 .name {
     font-size: 20px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
 .contact {
     font-size: 12px;
     margin-bottom: 10px;
+}
+
+.personal-info {
+    background-color: #9BA4B5;
+    color: #212A3E;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info-headings {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0px;
 }
